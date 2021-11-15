@@ -1,1 +1,76 @@
-<!-- INICIE AQUI SUA PÁGINA DE JORNAL -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie News</title>
+    <link rel="stylesheet" href="style_jornal.css">
+</head>
+<body>
+    <header>
+        <img src="images/kanews2.png" id="logo" alt="Logo da pagina">
+        <br>
+        <nav>
+             <ul>
+                <b>
+                 <li><a href="../index.html" id="início">Início |</a></li>
+                 <li><a href="#"> Notícias | </a></li>
+                 <li><a href="#"> Quem Somos | </a></li>
+                 <li><a href="#"> Contato | </a></li>
+                 <li><a href="#"> Área do Assinante</a></li>
+                </b>
+             </ul>
+        </nav>
+        <br>
+        <div id="filtro">
+            <b><label for="filtro">Filtro</label></b>
+            <select name="filtro">
+                <option value="musica">Música</option>
+                <option value="cinema">Cinema</option>
+                <option value="coronavirus">COVID-19</option>
+                <option value="shopping">Shopping</option>
+                <option value="promocoes">Promoções</option>
+            </select>
+            <b><label for="data">Data</label></b>
+            <select name="data">
+                <option value="semana">Ultima semana</option>
+                <option value="mes">Ultimo mes</option>
+                <option value="ano">Ultimo ano</option>
+            </select>
+        </div>
+
+    </header>
+    <h2 id="destaque">NOTÍCIAS EM DESTAQUE</h2>
+
+    <!--Notícias em Destaque-->
+    <section class="links">
+        <div class="box">
+            <p>
+                <a href="https://f5.folha.uol.com.br/musica/2021/10/metallica-anuncia-datas-de-shows-no-brasil-para-maio-de-2022.shtml" target="_blank"><img src="images/metallica.png"></a>
+            </p>
+            <a href="https://f5.folha.uol.com.br/musica/2021/10/metallica-anuncia-datas-de-shows-no-brasil-para-maio-de-2022.shtml" target="_blank"><span> Metallica anuncia as novas datas de shows no Brasil para maio de 2022</span></a>
+        </div>
+
+        <div class="box">
+            <p>
+                <a href="https://www.youtube.com/watch?v=dVTAcGw6H9s" target="_blank"><img src="images/alerta-vermelho.jpg"></a>
+            </p>
+            <a href="https://www.youtube.com/watch?v=dVTAcGw6H9s" target="_blank"><span>Alerta Vermelho. Filme mais caro da Netflix até hoje, ganha trailer oficial</span></a>
+        </div>
+
+        <div class="box">
+            <p>
+                <a href="http://www.saude.salvador.ba.gov.br/vacinacao-covid/" target="_blank"><img src="images/vacinacao.jpg"></a>
+            </p>
+            <a href="http://www.saude.salvador.ba.gov.br/vacinacao-covid/" target="_blank"><span>COVID-19 - Confira aqui todos os locais de vacinação em Salvador</span></a>
+        </div>
+
+    </section>
+
+    <div class="footer">
+        ©2021 por ERIC SILVA DE JESUS. Via Kenzie Academy Brasil Todos os direitos reservados.
+    </div>
+
+</body>
+</html> 
