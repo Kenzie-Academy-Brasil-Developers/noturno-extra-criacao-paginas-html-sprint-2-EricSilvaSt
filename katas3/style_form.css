@@ -87,8 +87,19 @@ li{
     margin-bottom: 5px;
 }
 
-#footer{
-    color: white;
+.rodape{
+    padding: 30px;
+    font-size: 16px;
     text-align: center;
-    padding-top: 70px;
+    color: white;
 }
+
+.rodape a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
