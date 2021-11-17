@@ -28,6 +28,7 @@ nav{
     display: inline;
     margin: 0 auto;
     text-align: center;
+    font-weight: bold;
 }
 
 header ul{
@@ -98,4 +99,7 @@ body {
     color: #363636;
     text-transform: none;
     font-family: sans-serif;
+}
+div .rodape{
+    font-size: 20px; 
 }

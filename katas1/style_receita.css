@@ -67,7 +67,7 @@ a :hover{
 }
 
 .link img {
-    width: 300px;
+    width: 400px;
 }
 
 .link {
@@ -75,13 +75,17 @@ a :hover{
 }
 
 .box {
-    width: 330px;
+    width: 430px;
     display: inline-block;
+    
+}
+
+.rodape{
+    font-size: 12px;
 }
 
 .footer {
     padding-top: 90px;
-    padding-bottom: 15px;
     text-align: center;
     color: #000000;
     text-transform: none;
